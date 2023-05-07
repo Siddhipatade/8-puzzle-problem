@@ -15,10 +15,10 @@ The tiles in the initial(start) state can be moved in the empty space in a parti
 # Rules for solving the puzzle
 
 Instead of moving the tiles in the empty space we can visualize moving the empty space in place of the tile, basically swapping the tile with the empty space. The empty space can only move in four directions viz.,
-1. Up
-2. Down
-3. Right or
-4. Left
+1. *Up*
+2. *Down*
+3. *Right* or
+4. *Left*
 The empty space cannot move diagonally and can take only one step at a time (i.e. move the empty space one position at a time).
 
 # A* Algorithm
@@ -39,6 +39,7 @@ In 8-Puzzle problem, define the *'h-score'* as the number of misplaced tiles by 
 Calculate the *'h-score'* by comparing the initial(current) state and goal state and counting the number of misplaced tiles.
 
 Thus, *h-score* = 5 and *g-score* = 0 as the number of nodes traversed from the start node to the current node is 0.
+
 
 # How A* solves the 8-Puzzle problem.
 
