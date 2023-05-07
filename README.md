@@ -1,6 +1,6 @@
   # 8-puzzle problem using A* algorithm
 
- N-Puzzle or Sliding Puzzle is a popular puzzle that consists of *N* tiles where *N* can be 8, 15, 24 and so on. 
+ _N-Puzzle or Sliding Puzzle is a popular puzzle that consists of *N* tiles where *N* can be 8, 15, 24 and so on._
 
     In our example N = 8. 
     The puzzle is divided into sqrt(N+1) rows and sqrt(N+1) columns.
@@ -25,7 +25,7 @@ The empty space cannot move diagonally and can take only one step at a time (i.e
 # A* Algorithm
 A* is a computer algorithm that is widely used in pathfinding and graph traversal, the process of plotting an efficiently traversable path between multiple points, called nodes.
 
-The key feature of the A* algorithm is that it keeps a track of each visited node which helps in ignoring the nodes that are already visited, saving a huge amount of time. 
+_The key feature of the A* algorithm is that it keeps a track of each visited node_ which helps in ignoring the nodes that are already visited, saving a huge amount of time. 
 It also has a list that holds all the nodes that are left to be explored and it chooses the most optimal node from this list, thus saving time not exploring unnecessary or less optimal nodes.
 
 So I use two lists namely *'Open list'* and *'Closed list'* the *'Open list'* contains all the nodes that are being generated and are not existing in the *'Closed list'* and each node explored after it's neighboring nodes are discovered is put in the *'Closed list'* and the neighbors are put in the *'Open list'* this is how the nodes expand. 
