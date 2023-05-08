@@ -6,8 +6,8 @@
     The puzzle is divided into sqrt(N+1) rows and sqrt(N+1) columns.
     8-Puzzle will have 3 rows and 3 columns. 
     
-The puzzle consists of 8 tiles and one empty space where the tiles can be moved. 
-Start and Goal  state of the puzzle are provided. 
+The puzzle consists of _8 tiles_ and one empty space where the tiles can be moved. 
+_Start_ and _Goal  state_ of the puzzle are provided. 
 The puzzle can be solved by moving the tiles one by one in the single empty space and thus achieving the Goal state.
 
 The tiles in the initial(start) state can be moved in the empty space in a particular order and thus achieve the goal state.
