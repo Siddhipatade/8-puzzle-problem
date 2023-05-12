@@ -1,4 +1,4 @@
-  # 8-puzzle problem using A* algorithm
+  # `8-puzzle problem using A* algorithm`
 
  _N-Puzzle or Sliding Puzzle is a popular puzzle that consists of **N** tiles where **N** can be 8, 15, 24 and so on._
 
@@ -12,7 +12,7 @@ The puzzle can be solved by moving the tiles one by one in the single empty spac
 
 The tiles in the initial(start) state can be moved in the empty space in a particular order and thus achieve the goal state.
 
-### `Rules for solving the puzzle`
+## `Rules for solving the puzzle`
 
 Instead of moving the tiles in the empty space we can visualize moving the empty space in place of the tile, basically swapping the tile with the empty space. The empty space can only move in four directions viz.,
 1. **Up**
@@ -22,7 +22,7 @@ Instead of moving the tiles in the empty space we can visualize moving the empty
 
 The _**empty space cannot move diagonally**_ and can take _**only one step at a time**_ (i.e. move the empty space one position at a time).
 
-# A* Algorithm
+# `A* Algorithm`
 **A*** is a computer algorithm that is widely used in pathfinding and graph traversal, the process of plotting an efficiently traversable path between multiple points, called nodes.
 
 _The key feature of the **A*** algorithm is that it keeps a track of each visited node_ which helps in ignoring the nodes that are already visited, saving a huge amount of time. 
@@ -42,7 +42,7 @@ Calculate the **'h-score'** by comparing the initial(current) state and goal sta
 Thus, **h-score** = 5 and **g-score** = 0 as the number of nodes traversed from the start node to the current node is 0.
 
 
-# How A* solves the 8-Puzzle problem.
+# `How A* solves the 8-Puzzle problem`
 
 We first move the empty space in all the possible directions in the start state and calculate the **'f-score'** for each state. 
 This is called expanding the current state.
