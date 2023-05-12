@@ -12,7 +12,7 @@ The puzzle can be solved by moving the tiles one by one in the single empty spac
 
 The tiles in the initial(start) state can be moved in the empty space in a particular order and thus achieve the goal state.
 
-# Rules for solving the puzzle
+### `Rules for solving the puzzle`
 
 Instead of moving the tiles in the empty space we can visualize moving the empty space in place of the tile, basically swapping the tile with the empty space. The empty space can only move in four directions viz.,
 1. **Up**
