@@ -20,7 +20,7 @@ Instead of moving the tiles in the empty space we can visualize moving the empty
 3. **Right** or
 4. **Left**
 
-The empty space cannot move diagonally and can take only one step at a time (i.e. move the empty space one position at a time).
+The _**empty space cannot move diagonally**_ and can take _**only one step at a time**_ (i.e. move the empty space one position at a time).
 
 # A* Algorithm
 **A*** is a computer algorithm that is widely used in pathfinding and graph traversal, the process of plotting an efficiently traversable path between multiple points, called nodes.
