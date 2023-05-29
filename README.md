@@ -1,4 +1,4 @@
-  # `8-puzzle problem using A* algorithm`
+  # 8-puzzle problem using A* algorithm
 
  _N-Puzzle or Sliding Puzzle is a popular puzzle that consists of **N** tiles where **N** can be 8, 15, 24 and so on._
 
